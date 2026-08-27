@@ -1,5 +1,6 @@
 # SPDX-License-Identifier: MPL-2.0
 # This workflow is managed by gh actions-lock.
+# This workflow is managed by gh actions-lock.
 name: CI
 permissions:
   contents: read
@@ -28,13 +29,13 @@ jobs:
             os: macos-latest
 
     steps:
-      - uses: actions/checkout@v4.3.1
+      - uses: actions/checkout@v7.0.1
 
-      - uses: julia-actions/setup-julia@v2.7.0
+      - uses: julia-actions/setup-julia@v3.0.2
         with:
           version: ${{ matrix.julia-version }}
 
-      - uses: julia-actions/cache@v3.0.0
+      - uses: julia-actions/cache@v3.3.0
 
       - name: Install, build, test
         run: julia --project=. -e 'using Pkg; Pkg.Registry.add("General"); Pkg.Registry.add(Pkg.RegistrySpec(url="https://github.com/hyperpolymath/julia-professional-registry.git")); Pkg.instantiate(); Pkg.build(); Pkg.test()'
