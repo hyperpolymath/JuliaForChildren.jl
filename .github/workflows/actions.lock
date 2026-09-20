@@ -46,31 +46,43 @@ dependencies:
         commit: 'sha1-55cc8345863c7cc4c66a329aec7e433d2d1c52a9'
         owner_id: 44036562
         repo_id: 215566462
+
+    'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1':
+        ref: 'v7.0.1'
+        commit: 'sha1-3d3c42e5aac5ba805825da76410c181273ba90b1'
+        owner_id: 44036562
+        repo_id: 197814629
+
     'actions/checkout@v7.0.1':
         ref: 'v7.0.1'
         commit: 'sha1-3d3c42e5aac5ba805825da76410c181273ba90b1'
         owner_id: 44036562
         repo_id: 197814629
+
     'actions/configure-pages@v6.0.0':
         ref: 'v6.0.0'
         commit: 'sha1-45bfe0192ca1faeb007ade9deae92b16b8254a0d'
         owner_id: 44036562
         repo_id: 513659658
+
     'actions/deploy-pages@v5.0.1':
         ref: 'v5.0.1'
         commit: 'sha1-368f82528645a54fb793d4d04e342629a3f51346'
         owner_id: 44036562
         repo_id: 438112499
+
     'actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f':
         ref: 'v7.0.0'
         commit: 'sha1-bbbca2ddaa5d8feaa63e36b76fdaad77386f024f'
         owner_id: 44036562
         repo_id: 192625955
+
     'actions/upload-artifact@v7.0.1':
         ref: 'v7.0.1'
         commit: 'sha1-043fb46d1a93c77aae656e7c1c64a875d1fc6a0a'
         owner_id: 44036562
         repo_id: 192625955
+
     'actions/upload-pages-artifact@v5.0.0':
         ref: 'v5.0.0'
         commit: 'sha1-fc324d3547104276b827a68afc52ff2a11cc49c9'
@@ -78,26 +90,37 @@ dependencies:
         repo_id: 496012378
         uses:
             - 'actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f'
+
     'dependabot/fetch-metadata@v3.1.0':
         ref: 'v3.1.0'
         commit: 'sha1-25dd0e34f4fe68f24cc83900b1fe3fe149efef98'
         owner_id: 27347476
         repo_id: 371068214
+
+    'github/codeql-action@b96794f015dfd88f77b49b1c93e0fa7110f94c63':
+        ref: 'b96794f015dfd88f77b49b1c93e0fa7110f94c63'
+        commit: 'sha1-b96794f015dfd88f77b49b1c93e0fa7110f94c63'
+        owner_id: 9919
+        repo_id: 259445878
+
     'github/codeql-action@v4.38.0':
         ref: 'v4.38.0'
         commit: 'sha1-b96794f015dfd88f77b49b1c93e0fa7110f94c63'
         owner_id: 9919
         repo_id: 259445878
+
     'haskell-actions/setup@v2.12.0':
         ref: 'v2.12.0'
         commit: 'sha1-6037f33647c3f17758a2356c80fc4a53d7e0685d'
         owner_id: 75048950
         repo_id: 623796603
+
     'hyperpolymath/a2ml-ecosystem@main':
         ref: 'main'
         commit: 'sha1-aa4b836bd969df2bc58128cb8e3d20bbc88d5e79'
         owner_id: 6759885
         repo_id: 1275649586
+
     'hyperpolymath/k9-ecosystem@main':
         ref: 'main'
         commit: 'sha1-89f3c2702f4f650a92aa7411502f38da06abd562'
@@ -108,21 +131,25 @@ dependencies:
         commit: 'sha1-22e7bdb322c430c1d0dac6b3bb307f4bb139d0be'
         owner_id: 6759885
         repo_id: 1352485172
+
     'julia-actions/cache@v3.3.0':
         ref: 'v3.3.0'
         commit: 'sha1-a7bed9df697e5d7309d68afe7542a87621a8b6c8'
         owner_id: 53965732
         repo_id: 441908600
+
     'julia-actions/setup-julia@v3.0.2':
         ref: 'v3.0.2'
         commit: 'sha1-fa02766e078afaaf09b14210362cee14137e6a32'
         owner_id: 53965732
         repo_id: 202020219
+
     'peter-evans/repository-dispatch@v4.0.1':
         ref: 'v4.0.1'
         commit: 'sha1-28959ce8df70de7be546dd1250a005dd32156697'
         owner_id: 18365890
         repo_id: 220359305
+
     'softprops/action-gh-release@v3.0.3':
         ref: 'v3.0.3'
         commit: 'sha1-efb35369e0ad2afab669f228072c1b0d510eae64'
